@@ -1,0 +1,78 @@
+body{
+	text-align: justify;
+	background-color: #BDC3C7;
+}
+
+#menu{
+	background-color: #3498DB;
+	padding: 10px;
+	color: white;
+}
+#menu ul li{
+	display: inline-block;
+	padding: 5px;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu ul li a:hover{
+	color: red;
+}
+
+#menu ul li a .active{
+	color: #BDC3C7;
+}
+
+#menulign{
+	list-style: none;
+}
+
+#art{
+	padding: 5px; 
+	width: 900px; 
+	margin-left: 200px;
+}
+
+.cop{
+	height: 50px; 
+	background-color: #2980B9;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+}
+
+.foot{
+	background-color: #3498DB;
+	height: auto;
+	padding: 10px;
+	color: white;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px; 
+}
+
+#tablecours thead, tfoot{
+	background-color: #2980B9;
+	color: white;
+	border: 1px solid black;
+}
+#Contactformulaire {
+	width: 500px;
+	border: 2px solid #2980B9;
+	padding: 10px;
+	background-color: #3498DB;
+	color: white;
+	margin-left: 170px;
+}
+
+form input{
+	padding: 5px;
+	width: 400px;
+	margin: 5px;
+}
